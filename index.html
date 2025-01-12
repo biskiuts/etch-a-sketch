@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-A-Sketch</title>
+  </head>
+  <body>
+    <header>Etch-A-Sketch</header>
+    <main>
+      <aside class="settings">
+        <input id="colorTool" type="color" value="#000000" />
+        <button id="colorBtn">Color Mode</button>
+        <button id="rainbowBtn">Rainbow Mode</button>
+        <button id="eraserBtn">Eraser</button>
+        <button id="clearBtn">Clear</button>
+        <div id="sizeValue">16 x 16</div>
+        <input id="sizeSlider" type="range" value="16" min="8" max="64" />
+      </aside>
+      <div id="grid"></div>
+    </main>
+    <footer>
+      Copyright &copy; <span id="currentYear"></span>
+      <a href="https://github.com/biskiuts" target="_blank">biskiuts</a>
+    </footer>
+  </body>
+</html>
