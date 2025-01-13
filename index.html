@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>Etch-A-Sketch</header>
+    <header>
+      <h1>Etch-A-Sketch</h1>
+      <p>An interactive drawing tool that allows users to create designs on a grid</p>
+    </header>
     <main>
       <aside class="settings">
         <input id="colorTool" type="color" value="#000000" />
-        <button id="colorBtn">Color Mode</button>
-        <button id="rainbowBtn">Rainbow Mode</button>
+        <button id="bordersBtn">Borders Off</button>
+        <button id="colorBtn">Brush</button>
+        <button id="rainbowBtn">Rainbow</button>
+        <button id="toneupBtn">Tone Up</button>
+        <button id="tonedownBtn">Tone Down</button>
         <button id="eraserBtn">Eraser</button>
         <button id="clearBtn">Clear</button>
         <div id="sizeValue">16 x 16</div>
