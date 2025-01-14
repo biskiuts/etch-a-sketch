@@ -31,7 +31,7 @@ header p {
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-grow: 1;
   width: 90%;
   max-width: 1200px;
@@ -51,8 +51,8 @@ main {
 
 input[type="color"] {
   cursor: pointer;
-  width: 90px;
-  height: 60px;
+  width: 50px;
+  height: 40px;
   border: none;
 }
 
@@ -70,7 +70,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 100%;
+  width: 80%;
   transition: all 0.3s ease;
 }
 
@@ -87,6 +87,13 @@ button:active {
 #sizeValue {
   font-size: 18px;
   margin-bottom: -10px;
+}
+
+#grid {
+  display: grid;
+  margin: auto 150px;
+  width: 500px;
+  height: 500px;
 }
 
 footer {
